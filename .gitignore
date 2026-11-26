@@ -1,0 +1,37 @@
+target/
+.m2/
+.tools/
+.idea/
+.vscode/
+*.iml
+data/
+logs/
+.DS_Store
+*.log
+
+# Local credentials and private environment configuration
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+
+# Training outputs, model weights and release archives
+output/
+outputs/
+checkpoints/
+*.gguf
+*.safetensors
+*.pt
+*.pth
+*.zip
+*.tar.gz
+*.tgz
+
+# Python evaluation environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
